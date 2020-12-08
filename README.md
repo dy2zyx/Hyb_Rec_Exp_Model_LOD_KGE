@@ -86,7 +86,7 @@ To run the code with an example, do
 ```Python
   python 'running_example.py'
   ```
-  Specifically, to run the example, you can define:
+  Specifically, to run the example, you can customize:
   * the input_dict, which is the user input (profile), keys are item IDs (see 'movies.csv' in the Dataset folder), values are ratings (of a 1 to 10 scale)
   * the recommender system used (recommender), which has to be one of the followings ('cbf', 'svd', 'hybrid')
   * the explanation pattern used for the ExpLOD model (pattern), which has to be one of the two options ('basic', 'broader'), and
